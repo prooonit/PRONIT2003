@@ -1,0 +1,236 @@
+@import url(_variable.css);
+
+.header_area .navvnamw{
+    padding: 0 30rem 0rem 1rem;
+    
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+}
+/*////////////pop-up//////*/
+
+body{
+    background-color:whitesmoke; 
+}
+body{
+    
+    margin: 0.3rem 10rem;
+    background-color:whitesmoke;
+}
+.header_area{
+    
+    border-radius: 2%;
+}
+ .navbar .nav-item  .nav-link{
+  /* padding: 1rem 20rem;*/
+  font-family: "Roboto",cursive;
+  text-transform: uppercase;
+  padding-right: 4rem;
+  font-weight: 500;
+  color: black;
+}
+.navbar .nav-item  .nav-link .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+.navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+
+ .site-main .site-banner h3{
+  padding-top: 30%;
+  
+  font-weight: 400;
+}
+.site-main .site-banner h3::after{
+    content: "";
+    height:2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 2%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner h1{
+    padding: 10px 0 10px 0;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+}
+.site-main .site-banner h4{
+    font-size: 1.4rem;
+    padding: 4px 8px 8px 0;
+}
+.site-main .site-banner .banner-img >img{
+    padding: 60px 30px 0 10px;
+    margin: 45px 0 0 45px;
+
+}
+.texx{
+    padding-left: 13px;
+}
+.button{
+    font-family:sans-serif;
+    padding: 0.8rem 2.2rem;
+    margin:8px 6px 6px 0;
+    
+    font-weight: 500;
+    border: 2px solid transparent;
+   
+}
+ .primary-btn{
+    color: whitesmoke;
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    transition:background .8s ease;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    border-radius: 4px;
+}
+.primary-btn:hover{
+  background: whitesmoke;
+  color: black;
+  border: solid 2px #4458dc  ;
+  border-radius: 4px;
+  
+}
+.secondary-btn{
+    color: black;
+    background: white ;
+    background-clip: padding-box;
+    transition:background .8s ease;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    border: solid 2px;
+    border-color: #4458dc ;
+    border-radius: 4px;
+}
+.secondary-btn:hover{
+    background: var(--gradient-color);
+    color: whitesmoke;
+    border: solid 1px #4458dc  ;
+    border-radius: 4px;
+    
+  }
+/* ===========================================================About-us===============================================================*/
+.about-area{
+    padding-top: 200px;
+}
+.about-title{
+    padding: 0 0 0 40px;
+}
+.abot-head{
+    padding-top: 5px;
+}
+.abot-head >span{
+    margin-top: 10px;
+    font-size: 2.3rem;
+    letter-spacing: 21px;
+    font-weight: 600;
+    display: block;
+    text-transform: uppercase;
+}
+.about-title .para{
+    padding: 15px 0px 0 0;
+    color: rgb(58, 54, 54);
+    line-height: 1.8;
+ 
+}
+.para{
+    font-family: 'Overpass', sans-serif;
+}
+.about-img{
+    padding:20px 40px 10px 10px;
+}
+.about-btn{
+  margin-top: 18px;
+}
+
+/* //////////////////////////////////////////////////////SERVICES/////////////////////////////////////*/
+
+.services-body {
+    padding: 7rem 2rem;
+}
+.services-body .services-text {
+    font-size: 35px;
+    padding: 1rem;
+}
+.services-body .ser-para{
+    padding: 0 7rem;
+}
+.services-body .services-list{
+    padding: 30px;
+}
+.services-body .services .services-img{
+    height: 68px;
+}
+.services-body .services .card-texxx{
+    padding: 32px 28px 28px 28px;
+}
+.services-body .services .card-texxx h5{
+    padding-bottom: 6px;
+    font-size: 20px;
+
+}
+.services-body .services{
+    background: rgba(248, 252, 253, 0.937);
+    padding: 2rem 0;
+    width: 16rem;
+    transition:box-shadow 0.7s ease;
+}
+.services-body .services:hover{
+ box-shadow:0px 10px 30px rgba(57, 56, 61, 0.205) ;
+}
+
+/*///////////subscribe////////////////*/
+.subscribe-area{
+    padding-bottom: 100px;
+}
+.subscribe-area .subscribe{
+    background:url(/Multiemedia/subscribe-bg1.png) no-repeat;
+    height: 370px;
+   
+}
+
+.subscribe-area .subscribe .pad-row{
+    padding:80px 80px 40px 80px ;
+    color: white;
+}
+.subscribe-area .subscribe .pad-row h4{
+    font-family: 'Varela Round', sans-serif;
+    font-size:35px;
+}
+.last-btn{
+    width: 110px;
+  
+}
+.last-clg{
+    padding-left: 30px;
+}
+.pepe{
+   font-family: 'Overpass', sans-serif;
+}
+.email-pad{
+    padding: 0 10px 0 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

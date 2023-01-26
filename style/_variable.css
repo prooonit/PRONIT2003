@@ -1,0 +1,7 @@
+:root{
+    --primary_color:#4458dc;
+    --secondary-color:#854fee;
+    --text-color:#777777;
+    --gradient-color:linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    --gradient-color1:linear-gradient(90deg,#4568dc , #b06ab3);
+}
